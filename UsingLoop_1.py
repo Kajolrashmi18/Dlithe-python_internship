@@ -16,6 +16,25 @@ The first line contains the number of test cases T
 1 = T = 1000
 Each test case contains three integers, A, B and K.
 1 = A,B,K = 10^9
+Output
+
+Print the maximum number of idlis she can buy for each test case on a new line
+
+Sample Input 0
+
+5
+5 5 21
+4 5 21
+4 3 20
+3 2 21
+1 2 20
+Sample Output 0
+
+4
+5
+6
+10
+20
 '''
 print(“Enter the value of N”)
 n=int(input())
