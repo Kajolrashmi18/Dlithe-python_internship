@@ -36,3 +36,21 @@ Sample Output 0
   print(“Difference = “,a-b)                                                #  Difference = 28 
   print(“Product = “,a*b)    
 
+#4. Read four values from the keyboard a,b,c,d and print the result of a^b + c^d in single line.
+'''Sample Input
+
+9
+29
+7
+27
+Sample Output
+
+4710194409608608369201743232 
+'''
+print(“Enter the values a,b,c”)                                          
+a=int(input("a = "))                                                                 
+b=int(input("b = "))                                                                
+c=int(input("c = "))                                                                  
+d=int(input("d = "))                                                            
+x=a**b + c**d 
+print(“Result = “,x)          
